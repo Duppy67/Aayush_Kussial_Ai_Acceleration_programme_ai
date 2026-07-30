@@ -11,13 +11,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "One dashboard to draft emails, plan tasks and summarize research with AI built for professional teams.",
+          "AI Productivity Hub is a web application that automates workplace tasks for professionals using AI.",
       },
       { property: "og:title", content: "AI Workplace Productivity Assistant — Dashboard" },
       {
         property: "og:description",
         content:
-          "Draft emails, plan your week and summarize research from a single AI-powered workplace dashboard.",
+          "AI Productivity Hub is a web application that automates workplace tasks for professionals using AI.",
       },
     ],
   }),

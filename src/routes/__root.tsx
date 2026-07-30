@@ -81,14 +81,20 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "AI Workplace Productivity Assistant" },
+      { title: "AI Workplace Productivity Assistant — Dashboard" },
       {
         name: "description",
         content:
-          "An AI dashboard for professionals: draft emails, plan tasks and summarize research in one workspace.",
+          "AI Productivity Hub is a web application that automates workplace tasks for professionals using AI.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "AI Workplace Productivity Assistant — Dashboard" },
+      { name: "twitter:title", content: "AI Workplace Productivity Assistant — Dashboard" },
+      { property: "og:description", content: "AI Productivity Hub is a web application that automates workplace tasks for professionals using AI." },
+      { name: "twitter:description", content: "AI Productivity Hub is a web application that automates workplace tasks for professionals using AI." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1746955c-aad1-415b-93cb-feaf863c4681/id-preview-29863953--383a2a3a-1cfd-4e29-a0be-af50933a3abe.lovable.app-1785427091395.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1746955c-aad1-415b-93cb-feaf863c4681/id-preview-29863953--383a2a3a-1cfd-4e29-a0be-af50933a3abe.lovable.app-1785427091395.png" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
